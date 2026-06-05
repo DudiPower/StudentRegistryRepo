@@ -33,5 +33,6 @@ jobs:
       - name: Build (if exists)
         run: npm run build --if-present
 
+      - run: npm ci
       - name: Run tests
         run: npm test
